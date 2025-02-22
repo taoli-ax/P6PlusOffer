@@ -1,10 +1,8 @@
-package day1.code.strategy;
+package day1.elevator.strategy;
 
-import day1.code.Elevator;
-import day1.code.ExternalRequest;
-import day1.code.Request;
+import day1.elevator.Elevator;
+import day1.elevator.ExternalRequest;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.List;
 
 public class NormalHourHandleRequestStrategy implements HandleRequestStrategy {

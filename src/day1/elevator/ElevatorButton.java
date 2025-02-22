@@ -1,6 +1,4 @@
-package day1.code;
-
-import java.util.List;
+package day1.elevator;
 
 public class ElevatorButton {
     private Level level;

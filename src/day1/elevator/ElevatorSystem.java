@@ -1,6 +1,6 @@
-package day1.code;
+package day1.elevator;
 
-import day1.code.strategy.HandleRequestStrategy;
+import day1.elevator.strategy.HandleRequestStrategy;
 
 import java.util.ArrayList;
 import java.util.Arrays;

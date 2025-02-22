@@ -1,7 +1,7 @@
-package day1.code.strategy;
+package day1.elevator.strategy;
 
-import day1.code.Elevator;
-import day1.code.ExternalRequest;
+import day1.elevator.Elevator;
+import day1.elevator.ExternalRequest;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package day1.code;
+package day1.elevator;
 
 public class Request {
     Direction direction;
