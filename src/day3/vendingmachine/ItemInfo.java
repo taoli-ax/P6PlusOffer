@@ -1,10 +1,10 @@
-package day3;
+package day3.vendingmachine;
 
-public class Item {
+public class ItemInfo {
     private String name;
     private double price;
 
-    public Item(String name, double price) {
+    public ItemInfo(String name, double price) {
         this.name = name;
         this.price = price;
     }
