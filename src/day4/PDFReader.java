@@ -7,6 +7,6 @@ public class PDFReader extends Reader{
     }
     @Override
     public void read() {
-
+        System.out.println("reading pdf");
     }
 }

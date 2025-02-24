@@ -1,5 +1,5 @@
 package day4;
 
-public class UploadBookException {
+public class UploadBookException extends Exception {
 }
 

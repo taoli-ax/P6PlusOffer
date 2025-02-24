@@ -1,4 +1,4 @@
 package day4;
 
-public class DownloadBookException {
+public class DownloadBookException extends Exception {
 }

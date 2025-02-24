@@ -6,7 +6,7 @@ import java.util.List;
 public class Kindle {
     List<Book> library;
 
-    public  void  uploadBook(File f){
+    public  void  uploadBook(Book book){
 
     }
 
@@ -15,7 +15,11 @@ public class Kindle {
     }
 
     public void  read(Book b){
-       Reader strategy = SimpleReadFactory.createReader(b);
+       Reader reader = SimpleReadFactory.createReader(b);
+       if(reader != null){
+           reader.read();
+       }
+
     }
     public void remove(Book b){}
 
