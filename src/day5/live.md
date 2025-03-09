@@ -88,7 +88,7 @@ void updateClient(Client client, Boolean isDelete){
       - ex: 
       ```java
       function Test(Student s);
-      functionTest(Teacher s);
+      function Test(Teacher s);
       ```
       - 以上代码低版本会报错，8以上不会
 
